@@ -1,0 +1,14 @@
+{
+  "name": "csound_npm_native_opcodelib",
+  "version": "1.0.0",
+  "description": "Example native opcode library using cmake-js",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "cmake-js": "^6.3.0"
+  },
+  "scripts": {
+    "build": "cmake-js compile",
+    "install": "cmake-js compile"
+  }
+}
